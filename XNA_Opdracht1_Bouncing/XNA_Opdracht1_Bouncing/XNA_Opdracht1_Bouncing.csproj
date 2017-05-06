@@ -85,7 +85,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-  <ProjectReference Include="..\GameManagement\GameManagement\GameManagement.csproj">
+    <ProjectReference Include="..\GameManagement\GameManagement.csproj">
       <Project>{81460380-4ff0-4ec0-9586-389e598c9f92}</Project>
       <Name>GameManagement</Name>
     </ProjectReference>

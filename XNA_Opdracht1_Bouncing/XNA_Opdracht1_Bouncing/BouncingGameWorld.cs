@@ -22,9 +22,9 @@ namespace Opdracht1_Bouncing {
 
             screen = new Point(1000, 552);
             SetFullScreen(false);
-            gameStateManager.AddGameState(nameof(PlayState), new PlayState());
+            gameStateManager.AddGameState("playState", new PlayState());
 
-            gameStateManager.SwitchTo(nameof(PlayState));
+            gameStateManager.SwitchTo("playState");
         }
     }
 }

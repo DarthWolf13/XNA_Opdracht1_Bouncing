@@ -19,6 +19,14 @@ namespace Opdracht1_Bouncing {
 
         public override void Update(GameTime gameTime) {
             // step 3: Implement Ball bouncing behaviour
+            if (this.position.X + radius >= BouncingGameWorld.Screen.X || this.position.X - radius <= 0)
+            {
+                this.velocity.X *= -1;
+            }
+            if (this.position.Y + radius >= BouncingGameWorld.Screen.Y || this.position.Y - radius <= 0)
+            {
+                this.velocity.Y *= -1;
+            }
             // step 5: Implement acceleration behaviour
             // step 7: Implement gravity behaviour
             // step 9: Implement inelastic behaviour

@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA_Opdracht1_Bouncing", "XNA_Opdracht1_Bouncing\XNA_Opdracht1_Bouncing\XNA_Opdracht1_Bouncing.csproj", "{21038F21-0C5B-499F-A7BD-EC2080AD5CAA}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XNA_Opdracht1_BouncingContent", "XNA_Opdracht1_Bouncing\XNA_Opdracht1_BouncingContent\XNA_Opdracht1_BouncingContent.contentproj", "{9FC36BB3-2056-42EB-84A0-621CD50FF4D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNA_Opdracht1_BouncingContent", "XNA_Opdracht1_Bouncing\XNA_Opdracht1_BouncingContent\XNA_Opdracht1_BouncingContent.contentproj", "{9FC36BB3-2056-42EB-84A0-621CD50FF4D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManagement", "XNA_Opdracht3_Steering\GameManagement\GameManagement\GameManagement.csproj", "{81460380-4FF0-4EC0-9586-389E598C9F92}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameManagement", "XNA_Opdracht1_Bouncing\GameManagement\GameManagement.csproj", "{81460380-4FF0-4EC0-9586-389E598C9F92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +21,10 @@ Global
 		{21038F21-0C5B-499F-A7BD-EC2080AD5CAA}.Release|x86.Build.0 = Release|x86
 		{9FC36BB3-2056-42EB-84A0-621CD50FF4D6}.Debug|x86.ActiveCfg = Debug|x86
 		{9FC36BB3-2056-42EB-84A0-621CD50FF4D6}.Release|x86.ActiveCfg = Release|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Debug|x86.ActiveCfg = Debug|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Debug|x86.Build.0 = Debug|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Release|x86.ActiveCfg = Release|x86
+		{81460380-4FF0-4EC0-9586-389E598C9F92}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
